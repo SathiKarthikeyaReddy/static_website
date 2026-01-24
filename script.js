@@ -4,9 +4,9 @@ const movies = {
         { id: 1, title: "Stranger Things", image: "https://m.media-amazon.com/images/M/MV5BMDZkYmVhNjMtNWU4MC00MDQxLWE3MjYtZGMzZWI1ZjhlOWJmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg", year: 2016, rating: "8.7" },
         { id: 2, title: "The Witcher", image: "https://m.media-amazon.com/images/M/MV5BN2FiOWU4YzYtMzZiOS00MzcyLTlkOGEtOTgwZmEwMzAxMzA3XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg", year: 2019, rating: "8.2" },
         { id: 3, title: "Money Heist", image: "https://m.media-amazon.com/images/M/MV5BODI0ZTljYTMtODQ1NC00NmI0LTk1YWUtN2FlNDM1MDExMDlhXkEyXkFqcGdeQXVyMTM0NTUzNDIy._V1_.jpg", year: 2017, rating: "8.3" },
-        { id: 4, title: "The Queen's Gambit", image: "https://m.media-amazon.com/images/M/MV5BM2EwMmRhMmUtMzBmMS00ZDQ3LTg4OGEtNjlkODk3ZTMxMmJlXkEyXkFqcGdeQXVyMjM5ODk1NDU@._V1_.jpg", year: 2020, rating: "8.6" },
+        { id: 4, title: "The Queen's Gambit", image: "https://imgs.search.brave.com/dByUVpSXaMLKL-Wr2883…MvcXVl/ZW5zLWdhbWJpdC1r/ZXktYXJ0LWkxMDI0/NzEuanBn", year: 2020, rating: "8.6" },
         { id: 5, title: "Breaking Bad", image: "https://m.media-amazon.com/images/M/MV5BYmQ4YWMxYjUtNjZmYi00MDQ1LWFjMjMtNjA5ZDdiYjdiODU5XkEyXkFqcGdeQXVyMTMzNDExODE5._V1_.jpg", year: 2008, rating: "9.5" },
-        { id: 6, title: "Peaky Blinders", image: "https://m.media-amazon.com/images/M/MV5BZjYzZDgzMmYtYjY5Zi00YTk1LThhMDYtNjFlNzM4MTZhYzgyXkEyXkFqcGdeQXVyMTE5NDQ1MzQ3._V1_.jpg", year: 2013, rating: "8.8" }
+        { id: 6, title: "Peaky Blinders", image: "https://imgs.search.brave.com/fv36rOl3yuNR7Z2x57kZ…YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDEwNzYw/NTkwLmpwZw", year: 2013, rating: "8.8" }
     ],
     trending: [
         { id: 7, title: "Squid Game", image: "https://m.media-amazon.com/images/M/MV5BYWE3MDVkN2EtNjQ5MS00ZDQ4LTliNzYtMjc2YWMzMDEwMTA3XkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_.jpg", year: 2021, rating: "8.0" },
@@ -14,23 +14,23 @@ const movies = {
         { id: 9, title: "Bridgerton", image: "https://m.media-amazon.com/images/M/MV5BNjk4MDdhODctMmFhYi00ZTNhLThlN2UtN2NhZGY0OGFlMWEwXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg", year: 2020, rating: "7.4" },
         { id: 10, title: "The Last of Us", image: "https://m.media-amazon.com/images/M/MV5BZGUzYTI3M2EtZmM0Yy00NGUyLWI4ODEtN2Q3ZGJlYzhhZjU3XkEyXkFqcGdeQXVyNTM0OTY1OQ@@._V1_.jpg", year: 2023, rating: "8.8" },
         { id: 11, title: "Ozark", image: "https://m.media-amazon.com/images/M/MV5BZDUxMWNlMTUtYTljZS00MTE0LTlkYjktOTU1ODZjYzBhMTk0XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg", year: 2017, rating: "8.5" },
-        { id: 12, title: "The Crown", image: "https://m.media-amazon.com/images/M/MV5BZWNiODE2NjAtZWM1NS00ZDBjLWE4ZDEtMDlhNWE2YzA4OGFkXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg", year: 2016, rating: "8.7" }
+        { id: 12, title: "The Crown", image: "https://imgs.search.brave.com/oz3oeStzUsFm6OdhO4my…zUu/anBnLzI1MHB4LVRo/ZV9Dcm93bl9zZWFz/b25fNS5qcGc", year: 2016, rating: "8.7" }
     ],
     tvShows: [
-        { id: 13, title: "Dark", image: "https://m.media-amazon.com/images/M/MV5BOTk2NzUyOTctZDdlMS00MDJlLTgzNTEtNzQzYjFhNjA0YjBjXkEyXkFqcGdeQXVyMjg1NDcxNDM@._V1_.jpg", year: 2017, rating: "8.7" },
+        { id: 13, title: "Dark", image: "https://imgs.search.brave.com/Dh5qjKGp2gpRh2WeU22U…kpQ/aXNGNExGZkozenFS/N1lUU0F1Z2t3czlh/ZzZ2ay5wbmc", year: 2017, rating: "8.7" },
         { id: 14, title: "Better Call Saul", image: "https://m.media-amazon.com/images/M/MV5BZDA4YmE0OTYtMmRmNS00Mzk2LTlhM2MtNjk4NzBjZGE1MmIyXkEyXkFqcGdeQXVyMTMzNDExODE5._V1_.jpg", year: 2015, rating: "8.9" },
         { id: 15, title: "Mindhunter", image: "https://m.media-amazon.com/images/M/MV5BNWNmYzQ1ZWUtYTQ3ZS00Y2UwLTlkMDctZThlOTJkMGJiNzBiXkEyXkFqcGdeQXVyNjg2NjQwMDQ@._V1_.jpg", year: 2017, rating: "8.6" },
-        { id: 16, title: "Black Mirror", image: "https://m.media-amazon.com/images/M/MV5BZTgyNTBkNzctN2I3NC00NTA1LWJiMDMtYzA2MmYyZjc1NWQzXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg", year: 2011, rating: "8.8" },
+        { id: 16, title: "Black Mirror", image: "https://imgs.search.brave.com/uC227FFnuQ7eV8_8Ej-E…ZXJzLVRyYWls/ZXItVG9tLUxvcmVu/em8tU2l0ZS01Lmpw/Zw", year: 2011, rating: "8.8" },
         { id: 17, title: "The Haunting of Hill House", image: "https://m.media-amazon.com/images/M/MV5BMTU4NzA4MDEwNF5BMl5BanBnXkFtZTgwMTQxODYzNjM@._V1_.jpg", year: 2018, rating: "8.6" },
-        { id: 18, title: "Narcos", image: "https://m.media-amazon.com/images/M/MV5BNmFjODU3YzgtMGUwNC00ZGI3LWFkZjQtMjkxZDc3NmQ1MzcyXkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_.jpg", year: 2015, rating: "8.8" }
+        { id: 18, title: "Narcos", image: "https://imgs.search.brave.com/WMyuHXpSCnXN6vCv0U6M…Ymxv/X05hcmNvc19Qb3N0/ZXIuanBnP3Y9MTY5/NDQwNDcwNQ", year: 2015, rating: "8.8" }
     ],
     originals: [
-        { id: 19, title: "The Umbrella Academy", image: "https://m.media-amazon.com/images/M/MV5BNzk0OWQzMDQtODg1ZC00Yjg2LWJjYzAtNGRjMjE2M2FlYjZjXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg", year: 2019, rating: "8.0" },
+        { id: 19, title: "The Umbrella Academy", image: "https://imgs.search.brave.com/UMvuZfiBoXqx-SmKD0GP…FtYXpvbi5j/b20vaW1hZ2VzL0kv/NjFxRHlsZFZxRUwu/anBn", year: 2019, rating: "8.0" },
         { id: 20, title: "Stranger Things", image: "https://m.media-amazon.com/images/M/MV5BMDZkYmVhNjMtNWU4MC00MDQxLWE3MjYtZGMzZWI1ZjhlOWJmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg", year: 2016, rating: "8.7" },
         { id: 21, title: "The Witcher", image: "https://m.media-amazon.com/images/M/MV5BN2FiOWU4YzYtMzZiOS00MzcyLTlkOGEtOTgwZmEwMzAxMzA3XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg", year: 2019, rating: "8.2" },
         { id: 22, title: "House of Cards", image: "https://m.media-amazon.com/images/M/MV5BODM1MDU2NjY5NF5BMl5BanBnXkFtZTgwMDkxNTcwNjM@._V1_.jpg", year: 2013, rating: "8.7" },
         { id: 23, title: "Orange Is the New Black", image: "https://m.media-amazon.com/images/M/MV5BYjYyM2FmMmMtZDgyZi00NGU3LWI3NzktODllZDY0YzQyNzgyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg", year: 2013, rating: "8.2" },
-        { id: 24, title: "Bojack Horseman", image: "https://m.media-amazon.com/images/M/MV5BYWQwMDNkM2MtODU4OS00OTY3LTgwOTItNjE2Yzc0MzRkMDllXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg", year: 2014, rating: "8.8" }
+        { id: 24, title: "Bojack Horseman", image: "https://imgs.search.brave.com/AgzeYE85zQ5hxwNvd_NU…FtYXpvbi5j/b20vaW1hZ2VzL0kv/NjFURys4M3psd0wu/anBn", year: 2014, rating: "8.8" }
     ]
 };
 

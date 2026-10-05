@@ -231,7 +231,7 @@ function changeHeroBanner() {
         document.querySelector('.home-movie-heading').textContent = newFeatured.title;
         document.querySelector('.home-movie-description').textContent = newFeatured.description;
         document.querySelector('.home-movie-play-button').parentElement.href = newFeatured.videoUrl;
-    }, 30000);
+    }, 3000);
 }
 
 // Reset search results when clicking on navigation links

@@ -201,14 +201,14 @@ function changeHeroBanner() {
         {
             title: "The Witcher",
             description: "Geralt of Rivia, a solitary monster hunter, struggles to find his place in a world where people often prove more wicked than beasts.",
-            image: "https://m.media-amazon.com/images/M/MV5BN2FiOWU4YzYtMzZiOS00MzcyLTlkOGEtOTgwZmEwMzAxMzA3XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+            image: "https://image.tmdb.org/t/p/w1280/AoGsDM02UVt0npBA8OvpDcZbaMi.jpg",
             videoUrl: "https://youtu.be/ndl1W4ltcmg"
             
         },
         {
             title: "Stranger Things",
             description: "When a young boy disappears, his mother, a police chief and his friends must confront terrifying supernatural forces in order to get him back.",
-            image: "https://m.media-amazon.com/images/M/MV5BMDZkYmVhNjMtNWU4MC00MDQxLWE3MjYtZGMzZWI1ZjhlOWJmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+            image: "https://image.tmdb.org/t/p/w1280/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg",
             videoUrl: "https://youtu.be/b9EkMc79ZSU"
         },
         {

@@ -1,7 +1,7 @@
 // Movie data - normally this would come from an API
 const movies = {
     popular: [
-        { id: 1, title: "Stranger Things", image: "https://m.media-amazon.com/images/M/MV5BMDZkYmVhNjMtNWU4MC00MDQxLWE3MjYtZGMzZWI1ZjhlOWJmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg", year: 2016, rating: "8.7" },
+        { id: 1, title: "Stranger Things", image: "https://image.tmdb.org/t/p/w1280/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg", year: 2016, rating: "8.7" },
         { id: 2, title: "The Witcher", image: "https://image.tmdb.org/t/p/w1280/AoGsDM02UVt0npBA8OvpDcZbaMi.jpg", year: 2019, rating: "8.2" },
         { id: 3, title: "Money Heist", image: "https://m.media-amazon.com/images/M/MV5BODI0ZTljYTMtODQ1NC00NmI0LTk1YWUtN2FlNDM1MDExMDlhXkEyXkFqcGdeQXVyMTM0NTUzNDIy._V1_.jpg", year: 2017, rating: "8.3" },
         { id: 4, title: "The Queen's Gambit", image: "https://media.themoviedb.org/t/p/w188_and_h282_face/zU0htwkhNvBQdVSIKB9s6hgVeFK.jpg", year: 2020, rating: "8.6" },
@@ -26,7 +26,7 @@ const movies = {
     ],
     originals: [
         { id: 19, title: "The Umbrella Academy", image: "https://media.themoviedb.org/t/p/w188_and_h282_face/qhcwrnnCnN8NE1N6XXKHFmveJR9.jpg", year: 2019, rating: "8.0" },
-        { id: 20, title: "Stranger Things", image: "https://m.media-amazon.com/images/M/MV5BMDZkYmVhNjMtNWU4MC00MDQxLWE3MjYtZGMzZWI1ZjhlOWJmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg", year: 2016, rating: "8.7" },
+        { id: 20, title: "Stranger Things", image: "https://image.tmdb.org/t/p/w1280/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg", year: 2016, rating: "8.7" },
         { id: 21, title: "The Witcher", image: "https://image.tmdb.org/t/p/w1280/AoGsDM02UVt0npBA8OvpDcZbaMi.jpg", year: 2019, rating: "8.2" },
         { id: 22, title: "House of Cards", image: "https://m.media-amazon.com/images/M/MV5BODM1MDU2NjY5NF5BMl5BanBnXkFtZTgwMDkxNTcwNjM@._V1_.jpg", year: 2013, rating: "8.7" },
         { id: 23, title: "Orange Is the New Black", image: "https://m.media-amazon.com/images/M/MV5BYjYyM2FmMmMtZDgyZi00NGU3LWI3NzktODllZDY0YzQyNzgyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg", year: 2013, rating: "8.2" },
